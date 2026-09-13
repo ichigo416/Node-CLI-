@@ -1,0 +1,11 @@
+import React from "react";
+
+export interface <%= pascalName %>Props {
+  children?: React.ReactNode;
+}
+
+export function <%= pascalName %>({ children }: <%= pascalName %>Props) {
+  return <div className="<%= kebabName %>">{children}</div>;
+}
+
+export default <%= pascalName %>;
